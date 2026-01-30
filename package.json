@@ -1,0 +1,16 @@
+{
+  "name": "Leaflet in Practice: Create webmaps using the JavaScript Leaflet library",
+  "version": "1.0.0",
+  "description": "This is a guidebook to train a beginner in JavaScript syntax to learn and become a pro in using the Leaflet library in making webmap applications.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build",
+    "deploy": "gh-pages -d _book"
+  },
+  "author": "Samuel Gachuhi",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
+

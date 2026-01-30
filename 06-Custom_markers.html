@@ -1,0 +1,753 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Chapter 6 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="07-Creating_an_interactive_choropleth_map.html" />
+    
+    
+    <link rel="prev" href="05-Using_geojson_files_in_Leaflet.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01-Introduction.html">
+            
+                <a href="01-Introduction.html">
+            
+                    
+                    Chapter 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02-First_Leaflet_Map.html">
+            
+                <a href="02-First_Leaflet_Map.html">
+            
+                    
+                    Chapter 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03-Add_ons.html">
+            
+                <a href="03-Add_ons.html">
+            
+                    
+                    Chapter 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04-Embedding_Leaflet_Map_to_an_External_Website.html">
+            
+                <a href="04-Embedding_Leaflet_Map_to_an_External_Website.html">
+            
+                    
+                    Chapter 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="05-Using_geojson_files_in_Leaflet.html">
+            
+                <a href="05-Using_geojson_files_in_Leaflet.html">
+            
+                    
+                    Chapter 5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="06-Custom_markers.html">
+            
+                <a href="06-Custom_markers.html">
+            
+                    
+                    Chapter 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07-Creating_an_interactive_choropleth_map.html">
+            
+                <a href="07-Creating_an_interactive_choropleth_map.html">
+            
+                    
+                    Chapter 7
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08-Creating_controls.html">
+            
+                <a href="08-Creating_controls.html">
+            
+                    
+                    Chapter 8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09-Heatmaps.html">
+            
+                <a href="09-Heatmaps.html">
+            
+                    
+                    Chapter 9
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10-Clustering_marker_points.html">
+            
+                <a href="10-Clustering_marker_points.html">
+            
+                    
+                    Chapter 10
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11-Mobile_friendly_web_apps.html">
+            
+                <a href="11-Mobile_friendly_web_apps.html">
+            
+                    
+                    Chapter 11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12-Web_Map_Services.html">
+            
+                <a href="12-Web_Map_Services.html">
+            
+                    
+                    Chapter 12
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13-Standard_website_with_leaflet_project.html">
+            
+                <a href="13-Standard_website_with_leaflet_project.html">
+            
+                    
+                    Chapter 13
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="14-ESRI_Leaflet.html">
+            
+                <a href="14-ESRI_Leaflet.html">
+            
+                    
+                    Chapter 14
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Chapter 6</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="create-your-own-custom-markers">Create your own custom markers</h1>
+<h2 id="setting-the-base">Setting the base</h2>
+<p>Hope you didn&apos;t trash away the cities we created in the last [chapter][Using GeoJSON in Leaflet]. In this chapter, we shall focus on creating your own custom markers. We love a clean job, so we will create a new JavaScript file and name it <code>custom-markers.js</code>. We understand the previous [chapter][Using GeoJSON in Leaflet] was quite long but believe you me, although creating custom markers sounds easier, it took us way longer to get the hang around it. Good news, we received enough punches on the face to teach you how to dodge the pain points.</p>
+<p>The very first thing to do is to create a basemap. </p>
+<pre><code>var map = L.map(&apos;myMap&apos;).setView([-1.295287148, 36.81984753], 7);
+
+L.tileLayer(&apos;https://tile.openstreetmap.org/{z}/{x}/{y}.png&apos;, {
+    maxZoom: 19,
+    attribution: &apos;&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;&apos;
+}).addTo(map);
+</code></pre><p>We will create a new variable called <code>cities</code> that mimics the GeoJson file saved to Github only this time round the population values have been tweaked a bit. Paste the below code to your <code>custom-markers.js</code>.</p>
+<pre><code>var cities = {
+    &quot;type&quot;: &quot;FeatureCollection&quot;,
+    &quot;features&quot;: [
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Nairobi&quot;,
+          &quot;Population&quot;: 4300000
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            36.8198475311531,
+            -1.2952871483350066
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Kisumu&quot;,
+          &quot;Population&quot;: 610082
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            34.74657469430895,
+            -0.10402992528247523
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Mombasa&quot;,
+          &quot;Population&quot;: 1440000
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            39.66358575335434,
+            -4.041883912902392
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Nakuru&quot;,
+          &quot;Population&quot;: 422000
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            36.06412271026528,
+            -0.2754534004690896
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Nyeri&quot;,
+          &quot;Population&quot;: 759164
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            36.957036675396154,
+            -0.42345404217887506
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Machakos&quot;,
+          &quot;Population&quot;: 1422000
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            37.25780808801821,
+            -1.518874011494134
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Malindi&quot;,
+          &quot;Population&quot;: 119859
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            40.10521499751357,
+            -3.2138767356491655
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      }
+    ]
+  }
+</code></pre><p>Can you notice any difference on the <code>Population</code> property compared to the code in [Chapter 5][Using GeoJSON in Leaflet]? If you are hawkeyed, you will notice that the <strong>Population</strong> values this time round are integers compared to the string values used in the previous chapter. It sounds superflous to create population values as strings only to convert them to integers now, but please do remember the geojson.io site did that for us, not this author. Here is the <a href="https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson2.geojson.txt" target="_blank">raw geojson script</a> customized for this chapter. It is also available <a href="https://raw.githubusercontent.com/sammigachuhi/my-leaflet-project/main/geojson_files_updated/cities-geojson2.geojson.txt" target="_blank">here</a>.</p>
+<p>Just a small note before going on. When the GeoJSON file has the population values enclosed in strings <code>&quot;&quot;</code>, they are automatically rendered on a map on the Github server as shown below. </p>
+<p><img src="images/geojson-webmap.jpg" alt=""></p>
+<p>However, when the strings are removed, and the population values remain as integers, they are no longer rendered on a webmap as shown below.</p>
+<p><img src="images/geojson-nowebmap.jpg" alt=""></p>
+<p>No map rendered, just a dictionary containing other dictionaries.</p>
+<h2 id="the-icons">The icons</h2>
+<p>Alright. Let&apos;s create a map of our cities but with custom markers this time round. The below code creates our custom markers.</p>
+<pre><code>// Yellow Icon
+var yellowIcon = new L.Icon({
+    iconUrl: &apos;https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png&apos;,
+    shadowUrl: &apos;https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png&apos;,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+
+// Orange Icon
+var orangeIcon = new L.Icon({
+    iconUrl: &apos;https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png&apos;,
+    shadowUrl: &apos;https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png&apos;,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+
+// Red Icon
+var redIcon = new L.Icon({
+    iconUrl: &apos;https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png&apos;,
+    shadowUrl: &apos;https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png&apos;,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+  });
+</code></pre><p>We created three markers in order of importance: yellow, orange, red. You will see the significance (not so much) of these colors later.</p>
+<p>Time to create GeoJSON markers out of this.</p>
+<pre><code>L.geoJSON(cities, {
+    pointToLayer(feature, latlng) {
+        return L.marker(latlng, {icon: yellowIcon});
+    }
+}).bindPopup(function (layer) {
+    return layer.feature.properties.City;
+}).addTo(map);
+</code></pre><p>We got this.</p>
+<p><img src="images/geojson-markers.jpg" alt=""></p>
+<p>All cities are marked yellow irrespective of their population or jurisdictional significance. From a cartographer&apos;s perspective, the webmap needs more styling but before we get there, what was the purpose of the <code>pointToLayer()</code> function? According to the Leaflet guide, the <code>pointToLayer()</code> function is a special function for GeoJSON variables that specifies how they should be drawn. To be more descriptive, the function parses the  <code>return L.marker...</code> function to every Lat-Lon coordinate to make a marker appear at that point. </p>
+<h2 id="differentiate-custom-markers-on-a-webmap">Differentiate custom markers on a webmap</h2>
+<p>Now to the city markers. We would appreciate if the markers would differentiate the cities based on a particular variable, say population. By the way, size of cities is generally determined by population. The below code shall categorize cities by the size of circle markers which shall be based on the city&apos;s population. If you&apos;ve seen point symbols in Qgis, get ready to see them in action in Leaflet!</p>
+<p>Comment out the earlier code and insert this:</p>
+<pre><code>L.geoJSON(cities, {
+  pointToLayer: function (feature, latlng) {
+    if (feature.properties.Population &lt;= 250000) {
+      return L.circleMarker(latlng, {
+        radius: 4,
+        fillColor: &apos;#FFFF00&apos;,
+        color: &apos;#000&apos;,
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8  
+      });
+    } else if (feature.properties.Population &lt;= 800000) {
+      return L.circleMarker(latlng, {
+        radius: 8,
+        fillColor: &apos;#ff9900&apos;,
+        color: &apos;#000&apos;,
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8  
+      });
+    } else {
+      return L.circleMarker(latlng, {
+        radius: 12,
+        fillColor: &apos;#FF0000&apos;,
+        color: &apos;#000&apos;,
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8  
+      });
+    }
+
+  }
+}).bindPopup(function (layer) {
+  return `City: ${layer.feature.properties.City},&lt;br&gt;
+  Population: ${layer.feature.properties.Population}`;
+}).addTo(map);
+</code></pre><p>What you get is a map where the size of the circle markers has been defined by the city&apos;s population. This time round, the <code>pointToLayer()</code> function body worked with <strong>if/else if</strong> statement to differentiate the radius and color of each circle marker. Under the <strong>if/else if</strong> code statement block, different circle marker specifications of radius and fillColor were inserted for each population category. Any city with a population beyond 800000 was fitted into the <code>else</code> block.</p>
+<p><img src="images/geojson-diff1.jpg" alt=""></p>
+<p>This brings us to why we changed the population values from strings to integers. If we were to work with the original string values (like &quot;1000000&quot; in quotes), any value beyond 1, 000, 000 would receive the settings of <code>feature.properties.Population &lt;= 250000</code>. That is, it would be displayed in the same color scheme of yellow as a city with a population say, 25, 000 people and below. That would be passing a wrong message. The explanation for this glaring error arising from use of string values is this: when ordering numbers enclosed in strings in JavaScript, they will be ordered by their first character irrespective of the size of the value. In other words, 1 is greater than 9 even though the latter is more. Thus a city of <strong>&quot;</strong>800, 000<strong>&quot;</strong> people will be treated as bigger than a city of <strong>&quot;</strong>1, 000, 000<strong>&quot;</strong>. Now you see the logic of working without the quotes around the <strong>Population</strong> variable, as is the case with our GeoJSON file.</p>
+<p>In the next code sample, we shall create city marker icons whose colors shall be determined by the size of the city&apos;s population. We will work with three colors: yellow, orange and red. Yellow shall mark the smallest city while red shall indicate the largest. The below code shows how this categorization is worked out.</p>
+<pre><code>L.geoJSON(cities, {
+  pointToLayer: function (feature, latlng) {
+    if (feature.properties.Population &lt;= 250000) {
+      return L.marker(latlng, {
+        icon: yellowIcon 
+      });
+    } else if (feature.properties.Population &lt;= 800000) {
+      return L.marker(latlng, {
+        icon: orangeIcon 
+      });
+    } else {
+      return L.marker(latlng, {
+        icon: redIcon 
+      });
+    }
+
+  }
+}).bindPopup(function (layer) {
+  return `City: ${layer.feature.properties.City},&lt;br&gt;
+  Population: ${layer.feature.properties.Population}`;
+}).addTo(map);
+</code></pre><p><img src="images/geojson-diff2.jpg" alt=""></p>
+<p>In the above map, large cities with populations above 800, 000 have been categorized with a red marker, those with populations below 250, 000 with a yellow marker and those in between with an orange marker. In all cases, our <code>bindPopup()</code> still contains the same settings of showing both the city name and population size. </p>
+<p>The value to the <code>pointToLayer()</code> key was assigned a function that checks if a city&apos;s population is within a specific range. If a city falls within the range specified by the <code>if</code> statement, a particular icon --whether <code>yellowIcon</code>, <code>orangeIcon</code> or <code>redIcon</code> is returned by the <code>L.marker()</code> function.</p>
+<h2 id="using-fetch">Using fetch</h2>
+<p>Remember how <code>fetch</code> helped us retrieve data from a server in a previous chapter? Whereas we won&apos;t repeat the entire process again (you can breathe a sigh of relief), the same iterations of differentiating a marker icon can also be inserted into the <code>fetch</code> API. All this is done right within the options of <code>L.geoJson(data, {options})</code>. </p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson2.geojson.txt&quot;)
+    .then((response) =&gt;{
+        return response.json()
+    })
+    .then((data) =&gt; {
+        L.geoJson(data, {
+          pointToLayer: function (feature, latlng) {
+            if (feature.properties.Population &lt;= 250000) {
+              return L.marker(latlng, {
+                icon: yellowIcon 
+              });
+            } else if (feature.properties.Population &lt;= 800000) {
+              return L.marker(latlng, {
+                icon: orangeIcon 
+              });
+            } else {
+              return L.marker(latlng, {
+                icon: redIcon 
+              });
+            }
+
+          }
+        }).bindPopup((layer) =&gt; {
+            return `City: ${layer.feature.properties.City},&lt;br&gt;
+            Population: ${layer.feature.properties.Population}`}).addTo(map);
+    })
+    .catch((error) =&gt; {
+        console.log(`This is the error: ${error}`)
+    })
+</code></pre><p>The resulting map should look like the previous one.</p>
+<p><img src="images/cities_colored.jpg" alt=""></p>
+<h2 id="unique-custom-markers">Unique custom markers</h2>
+<p>This part may not be necessary, but it has been inserted to show you that there are various markers apart from the defaults provided by Leaflet. One can create custom markers outside of Leaflet using the <a href="https://github.com/lennardv2/Leaflet.awesome-markers" target="_blank">Leaflet.Awesome.Markers plugin</a>. Just like in the case of Ajax, you will need to provide the path to the plugin&apos;s dependencies using the <code>&lt;script&gt;</code> tag. Insert the following <code>&lt;script&gt;</code> tags into <code>map.html</code>.</p>
+<pre><code>&lt;script src=&quot;Leaflet.awesome-markers-2.0-develop\Leaflet.awesome-markers-2.0-develop\dist\leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;Leaflet.awesome-markers-2.0-develop\Leaflet.awesome-markers-2.0-develop\dist\leaflet.awesome-markers.css&quot;&gt;&lt;/script&gt;
+</code></pre><p>And also this <code>&lt;link&gt;</code> tag:</p>
+<pre><code>&lt;link href=&quot;http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css&quot; rel=&quot;stylesheet&quot;&gt;
+</code></pre><p>To make the best use of time, following the example on their site, we simply replace the value of our <code>icon</code> keys with the new <code>L.AwesomeMarkers.icon</code>. We also tweaked the colors for each icon to match those used previously. Because these markers signify various amenities, we made some overly simplified assumptions for the sake of demonstrating their use ie. big cities with a population above 1, 000, 000 have the best malls, those with a population between 250, 000 and 800, 000 must be having good coffee places, and those with populations below 250, 000 obviously have respectable industries. We assume fair play has been exercised in our assumptions. So here is the code.</p>
+<pre><code>L.geoJSON(cities, {
+    pointToLayer: function (feature, latlng) {
+      if (feature.properties.Population &lt;= 250000) {
+        return L.marker(latlng, {
+          icon: L.AwesomeMarkers.icon({icon: &apos;cog&apos;, prefix: &apos;fa&apos;, markerColor: &apos;purple&apos;, iconColor: &apos;yellow&apos;}) 
+        });
+      } else if (feature.properties.Population &lt;= 800000) {
+        return L.marker(latlng, {
+          icon: L.AwesomeMarkers.icon({icon: &apos;coffee&apos;, prefix: &apos;fa&apos;, markerColor: &apos;red&apos;, iconColor: &apos;orange&apos;}) 
+        });
+      } else {
+        return L.marker(latlng, {
+          icon: L.AwesomeMarkers.icon({icon: &apos;shopping-cart&apos;, prefix: &apos;fa&apos;, markerColor: &apos;blue&apos;, iconColor: &apos;red&apos;})
+        });
+      }
+
+    }
+  }).bindPopup(function (layer) {
+    return `City: ${layer.feature.properties.City},&lt;br&gt;
+    Population: ${layer.feature.properties.Population}`;
+  }).addTo(map);
+</code></pre><p><img src="images/extra-markers.jpg" alt=""></p>
+<p>The custom markers are also clickable!</p>
+<h2 id="image-overlays">Image overlays</h2>
+<p>Sometimes an image can act as good a marker. Overlaying images on a map is fairly easy. The below code inserts an image above a historical monument located in the Kenyan capital, Nairobi. </p>
+<pre><code>// Image overlays
+var imageUrl = &apos;https://pbs.twimg.com/media/DddQBk5WsAAlbdJ?format=jpg&amp;name=large&apos;;
+var errorOverlayUrl = &apos;https://pbs.twimg.com/media/DddQBk5WsAAlbdJ?format=jpg&amp;name=large&apos;;
+var altText = &apos;The Galton - Fenzi Memorial: Source: Google and Twitter&apos;;
+var latLngBounds = L.latLngBounds([[-1.2861259,36.8172709], [-1.2886193,36.8230413]]);
+
+var imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+    opacity: 0.8,
+    errorOverlayUrl: errorOverlayUrl,
+    alt: altText,
+    interactive: true
+}).addTo(map);
+</code></pre><p>However, finding an image of just one location over the wide earth can be laborious, so we envelope it with a rectangle. The <code>map.fitBounds</code> function enables the browser to automatically zoom to where our image is placed. </p>
+<pre><code>L.rectangle(latLngBounds).addTo(map);
+map.fitBounds(latLngBounds);
+</code></pre><p><img src="images/geltan-fenzi.jpg" alt=""></p>
+<p>Mind you that landmark was set up in 1939 in honour of Lionel Douglas Galton-Fenzi; the first motorist to drive from Nairobi to Mombasa as early as 1926. The landmark is also inscribed with bearings to various East African cities but enough history for today.</p>
+<p>Anyway, here is a quick breakdown of the attributes used in <code>L.imageOverlay</code>: a) the <code>var latLngBounds</code> uses the <code>L.latLngBounds</code> class to set the lat-lon coordinates. Notice they are two coordinate lists bound with a single <code>[]</code>. Failing to enclose the two coordinates with <code>[]</code> results in an error. b) <code>var ImageUrl</code> is  the image source. </p>
+<p>For the additional options parsed to the <code>L.imageOverlay()</code> class, they are described below:</p>
+<ol>
+<li><p><code>opacity</code> - defines the opacity of the image overlay, it equals to 1.0 by default. Decrease this value to make an image overlay transparent and to expose the underlying map layer.</p>
+</li>
+<li><p><code>errorOverlayUrl</code> - is a URL to the overlay image to show in place of the overlay that failed to load.</p>
+</li>
+<li><p><code>alt</code> - sets the HTML alt attribute to provide an alternative text description of the image. It is quite helpful in describing an image in text form just in case it fails to load due to poor network connectivity. Moreover, it can improve the Search Engine Optimization (SEO) of the website it is hosted in.</p>
+</li>
+<li><p><code>interactive</code> - is false by default. If true, the image overlay will emit mouse events when clicked or hovered.</p>
+</li>
+</ol>
+<p>Full codes and files are <a href="https://github.com/sammigachuhi/my-leaflet-project/tree/main/my-leaflet-code/chapter-6-custom-markers" target="_blank">here</a>.</p>
+<h2 id="summary">Summary</h2>
+<p>This was quite a long chapter that rendered justice on how to customize GeoJSON markers in Leaflet. Through the various exercises you encountered in this chapter, you have learnt the following:</p>
+<ul>
+<li><p>GeoJSON files, if in the correct format, can be rendered as a standalone map from Github. An example is <a href="https://github.com/sammigachuhi/geojson_files/blob/main/cities-geojson.geojson" target="_blank">here</a>.</p>
+</li>
+<li><p>One can customize marker colour or size based on the GeoJSON&apos;s file attributes. In this chapter, the city population values were used to define the marker&apos;s size and colour. </p>
+</li>
+<li><p>The <code>pointToLayer</code> key, when used as an option in <code>L.geoJSON</code>, will parse a particular function to every Lat-Lon coordinate of the GeoJSON object.</p>
+</li>
+<li><p>It is also possible to customize markers in the <code>fetch</code> API by simply specifying how they should appear, in form of functions, within the <code>L.geoJson</code> options environment.</p>
+</li>
+<li><p>There exist plenty of custom made icons outside of, but compatible with Leaflet. An example of such a library is <a href="https://github.com/lennardv2/Leaflet.awesome-markers" target="_blank">Leaflet Awesome Markers</a>.</p>
+</li>
+<li><p>Images can also be overlayed on a Leaflet map. This was done in the sub-chapter of [Image Overlays][Image overlays].</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="05-Using_geojson_files_in_Leaflet.html" class="navigation navigation-prev " aria-label="Previous page: Chapter 5">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="07-Creating_an_interactive_choropleth_map.html" class="navigation navigation-next " aria-label="Next page: Chapter 7">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 6","level":"1.7","depth":1,"next":{"title":"Chapter 7","level":"1.8","depth":1,"path":"07-Creating_an_interactive_choropleth_map.md","ref":"07-Creating_an_interactive_choropleth_map.md","articles":[]},"previous":{"title":"Chapter 5","level":"1.6","depth":1,"path":"05-Using_geojson_files_in_Leaflet.md","ref":"05-Using_geojson_files_in_Leaflet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"06-Custom_markers.md","mtime":"2026-01-30T19:28:15.922Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-01-30T19:51:43.548Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

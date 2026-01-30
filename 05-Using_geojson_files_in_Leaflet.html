@@ -1,0 +1,674 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Chapter 5 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="06-Custom_markers.html" />
+    
+    
+    <link rel="prev" href="04-Embedding_Leaflet_Map_to_an_External_Website.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01-Introduction.html">
+            
+                <a href="01-Introduction.html">
+            
+                    
+                    Chapter 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02-First_Leaflet_Map.html">
+            
+                <a href="02-First_Leaflet_Map.html">
+            
+                    
+                    Chapter 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03-Add_ons.html">
+            
+                <a href="03-Add_ons.html">
+            
+                    
+                    Chapter 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04-Embedding_Leaflet_Map_to_an_External_Website.html">
+            
+                <a href="04-Embedding_Leaflet_Map_to_an_External_Website.html">
+            
+                    
+                    Chapter 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="05-Using_geojson_files_in_Leaflet.html">
+            
+                <a href="05-Using_geojson_files_in_Leaflet.html">
+            
+                    
+                    Chapter 5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06-Custom_markers.html">
+            
+                <a href="06-Custom_markers.html">
+            
+                    
+                    Chapter 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07-Creating_an_interactive_choropleth_map.html">
+            
+                <a href="07-Creating_an_interactive_choropleth_map.html">
+            
+                    
+                    Chapter 7
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08-Creating_controls.html">
+            
+                <a href="08-Creating_controls.html">
+            
+                    
+                    Chapter 8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09-Heatmaps.html">
+            
+                <a href="09-Heatmaps.html">
+            
+                    
+                    Chapter 9
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10-Clustering_marker_points.html">
+            
+                <a href="10-Clustering_marker_points.html">
+            
+                    
+                    Chapter 10
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11-Mobile_friendly_web_apps.html">
+            
+                <a href="11-Mobile_friendly_web_apps.html">
+            
+                    
+                    Chapter 11
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12-Web_Map_Services.html">
+            
+                <a href="12-Web_Map_Services.html">
+            
+                    
+                    Chapter 12
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13-Standard_website_with_leaflet_project.html">
+            
+                <a href="13-Standard_website_with_leaflet_project.html">
+            
+                    
+                    Chapter 13
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="14-ESRI_Leaflet.html">
+            
+                <a href="14-ESRI_Leaflet.html">
+            
+                    
+                    Chapter 14
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Chapter 5</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="using-geojson-in-leaflet">Using GeoJSON in Leaflet</h1>
+<h2 id="creating-a-geojson-file">Creating a <code>.geojson</code> file</h2>
+<p>So far, we have created a Leaflet map, added some aesthetics such as markers, and even embedded a map into a dummy website. Alright, the website wasn&apos;t even close to good, but the methodology should be the same when working with other fully functional and better looking websites. That may be enough to give you confidence to start as a webmapper but not so fast! There is still more territory to cover! I would like to introduce another format of storing geospatial information --the use of <code>.geojson</code> files. </p>
+<h2 id="what-are-geojson-files">What are <code>.geojson</code> files?</h2>
+<p><code>.geojson</code> files, according to the GIS leader ESRI, are an <a href="https://doc.arcgis.com/en/arcgis-online/reference/geojson.htm" target="_blank">open standard geospatial data interchange format</a> that represents simple geographic features and their non-spatial attributes. GeoJSON is based on the JavaScript Object Notation (JSON) file format which is a lightweight data exchange format that is easily interpretable by both man and machine. In very few instances does any data format please both sides of the divide but JSON does, and this <a href="https://www.oracle.com/ke/database/what-is-json/" target="_blank">site</a> provides examples. Anyway, just like you can tell from the name, JSON is based on the JavaScript programming language. If you have worked with JavaScript before, it looks very much like a data format based on dictionaries. In essence, JSON is a large dictionary holding other <em>dictionaries</em> of data within it. A GeoJSON is a JSON file that follows a certain structure and has spatial index and geometry specifications in it. See this <a href="https://datascience.aero/geospatial-data-representation-the-geojson-format/" target="_blank">website</a> for a GeoJSON example. </p>
+<p>An example of a GeoJSON file format structure is shown below:</p>
+<pre><code>{
+  &quot;type&quot;: &quot;FeatureCollection&quot;,
+  &quot;features&quot;: [
+    {
+      &quot;type&quot;: &quot;Feature&quot;,
+      &quot;properties&quot;: {
+        &quot;City&quot;: &quot;Nairobi&quot;,
+        &quot;Population&quot;: &quot;4, 300, 000&quot;
+      },
+      &quot;geometry&quot;: {
+        &quot;coordinates&quot;: [
+          36.80617598261199,
+          -1.2868825246637812
+        ],
+        &quot;type&quot;: &quot;Point&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;Feature&quot;,
+      &quot;properties&quot;: {
+        &quot;City&quot;: &quot;Kisumu&quot;,
+        &quot;Population&quot;: &quot;610, 082&quot;
+      },
+      &quot;geometry&quot;: {
+        &quot;coordinates&quot;: [
+          34.738718987625106,
+          -0.10390483386935045
+        ],
+        &quot;type&quot;: &quot;Point&quot;
+      }
+    },
+    ---snip----
+</code></pre><p>Below is an example of a <a href="https://www.oracle.com/ke/database/what-is-json/" target="_blank">json file structure</a>.</p>
+<pre><code>{
+
+&quot;Influencers&quot; :   [ 
+{
+ &quot;name&quot; : &quot;Jaxon&quot;, 
+ &quot;age&quot; : 42, 
+ &quot;Works At&quot; : &quot;Tech News&quot;
+}
+
+{
+ &quot;name&quot; : &quot;Miller&quot;, 
+ &quot;age&quot; : 35
+ &quot;Works At&quot; : &quot;IT Day&quot;
+}
+
+] 
+}
+</code></pre><h2 id="why-geojson">Why <code>geojson</code>?</h2>
+<p>Yours truly could be wrong, but one advantage of <code>geojson</code> and <code>json</code> is that it&apos;s minimal on size compared to shapefiles and it is also more portable. Shapefiles are dependent on other data formats that accompany it, such as <code>.shx</code>, <code>.dbf</code>, <code>.prj</code> which provide auxillary geospatial orientation, metadata, and attributes. On the other hand, GeoJSON and JSON formats will come as single files but will still as much data as all the components of a shapefile (<code>.shx</code>, <code>.dbf</code>, and <code>.prj</code>) put together. </p>
+<p>So when do I use shapefiles vis a vis GeoJson? If you want to work with geospatial data in a web interface, <code>geojson</code> is the way to go. Period.</p>
+<h2 id="creating-a-geojson-file">Creating a geojson file</h2>
+<p>It may look intimidating to create a GeoJSON file without hardly making any errors, and it actually is, but luckily the <a href="https://geojson.io/#map=2/0/20" target="_blank">geojson.io</a> website does the heavy lifting for us. We shall head over to it and create a <code>geojson</code> file of some cities and their population. </p>
+<p>First, of all, the website looks like below. Talk of a cool global map powered by Mapbox. </p>
+<p><img src="images/mapbox-front.jpg" alt=""></p>
+<p>On your right, under the <strong>&lt;/&gt;JSON</strong> tab, the Mapbox folks have already given you a head start by indicating what feature type and features will go into your <code>geojson</code> file. These are important as any website uses these keywords when parsing information from the GeoJSON file. Zoom to Kenya and click a point on top of the Nairobi dot pin, like shown below. Use the highlighted pin in the image below to create a marker over Nairobi.</p>
+<p><img src="images/nairobi-pin.jpg" alt=""></p>
+<p>By doing so, you will realize that a new dictionary of <code>type</code>, <code>properties</code> and <code>geometry</code> appears within the <strong>features</strong> list. These new keys provide the additional spatial and geometry data in their values which a website uses to place them at their appropriate locations on the webmap. </p>
+<p>Now move over to the <strong>Table</strong> tab and click new column as shown below.</p>
+<p><img src="images/table.jpg" alt=""></p>
+<p>Click on it and in the graphic that appears, give your column the name <strong>City</strong>. Click <strong>Ok</strong> and in the table cell that appears, type <strong>Nairobi</strong>.</p>
+<p><img src="images/nairobi-named.jpg" alt=""></p>
+<p>Now create a new pin over <em>Kisumu</em> and two things will happen: a new dictionary will appear below that of Nairobi and a new table row will appear in the <strong>Table</strong> tab. Create pins over the following cities: Mombasa, Nakuru, Nyeri, Machakos and Malindi. Legally speaking, only the first four are cities by law, the rest are just towns but for the sake of this tutorial, let&apos;s corporately refer to them as cities.</p>
+<p><img src="images/cities-named.jpg" alt=""></p>
+<p>Alright, one process down, one more to go. We will fill these cities with their population statistics. Create a new column with the heading <strong>Population</strong>. Fill each of the cities with the following statistics.</p>
+<pre><code>read.csv(.-vs/data/points.csv&quot;)[ , 1:2]
+</code></pre><pre><code>|##    |   City | Population |
+| ----|  ------- | ----- |
+## 1  Nairobi 4, 300, 000
+## 2   Kisumu    610, 082
+## 3  Mombasa 1, 440, 000
+## 4   Nakuru    422, 000
+## 5    Nyeri    759, 164
+## 6 Machakos 1, 422, 000
+## 7  Malindi    119, 859
+|--- | ---- | ------- |
+</code></pre><p>Once done, head over to the top left of the <a href="http://geojson.io/" target="_blank">geojson.io</a> website, and click <strong>Save</strong>. A list of options will appear, click on save as <strong>geojson</strong>. It should appear somewhere in your <em>Downloads</em> directory. </p>
+<p><img src="images/geojson-save.jpg" alt=""></p>
+<h2 id="saving-the-geojson-to-github">Saving the Geojson to Github</h2>
+<p>Now, based on experience, loading a local Geojson file (one within your computer directory) to JavaScript is a painful, if not near impossible experience. The resulting errors had to with servers or something. To get a way around this and still be able to display <code>.geojson</code> data in Leaflet, the GeoJson file had to be stored on an online server, in this case, Github. We would love to show you how to save data on Github, but this would make this chapter way too long. Therefore, and with sincere apologies, it would be best if you googled it out. Nevertheless, here is the <a href="https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson" target="_blank">GeoJSON file</a>, and it will come in handy in the last two sub-chapters of this exercise. </p>
+<h2 id="loading-the-geojson-into-leaflet">Loading the GeoJSON into Leaflet</h2>
+<p>As they always say, there are many ways of killing a rat. There are around three ways in which to load GeoJson data into Leaflet, at least from our discovery. We shall start with the easiest and most unreliable to what we consider the best. Let start with the easy one, loading a <code>.geojson</code> file from within our Javascript file itself.</p>
+<h3 id="the-easy-way">The easy way</h3>
+<p>First of all create a blank JavaScript file called <code>geojson.js</code>. Thereafter, go to your <code>map.html</code> file which you had created last in [Chapter 2][Setting the superstructure]. Open it. Within the <code>&lt;script&gt;</code> tag of the <code>&lt;body&gt;</code> element, change the <code>src</code> attribute to read <code>&quot;geojson.io&quot;</code> like below.</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        -- snip ---
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id=&quot;myMap&quot;&gt;
+            &lt;script src=&quot;geojson.js&quot;&gt;
+            &lt;/script&gt; 
+        &lt;/div&gt;  
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Alright. Head over to your <code>geojson.js</code> and as always, add the Leaflet classes <code>L.map</code> and <code>L.tileLayer</code>. We set the view of our new Leaflet map to that of Nairobi. Your blank <code>geojson.js</code> should now be filled with the below code.</p>
+<pre><code>var map = L.map(&apos;myMap&apos;).setView([-1.295287148, 36.81984753], 7);
+
+L.tileLayer(&apos;https://tile.openstreetmap.org/{z}/{x}/{y}.png&apos;, {
+    maxZoom: 19,
+    attribution: &apos;&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;&apos;
+}).addTo(map);
+</code></pre><p>Okay. Head over to <a href="geojson.io">geojson.io</a> website and right under the <strong>&lt;/&gt;JSON</strong> you will see a copy icon. </p>
+<p><img src="images/geojson-copy.jpg" alt=""></p>
+<p>Click it and paste the json code into your <code>geojson.js</code> file right above the other <code>L.map</code> and <code>L.tileLayer</code> classes. The contents of your <code>geojson.js</code> should look like below. </p>
+<pre><code>var cities = {
+    &quot;type&quot;: &quot;FeatureCollection&quot;,
+    &quot;features&quot;: [
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Nairobi&quot;,
+          &quot;Population&quot;: &quot;4, 300, 000&quot;
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            36.8198475311531,
+            -1.2952871483350066
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      },
+      -- snip ---
+      {
+        &quot;type&quot;: &quot;Feature&quot;,
+        &quot;properties&quot;: {
+          &quot;City&quot;: &quot;Malindi&quot;,
+          &quot;Population&quot;: &quot;119, 859&quot;
+        },
+        &quot;geometry&quot;: {
+          &quot;coordinates&quot;: [
+            40.10521499751357,
+            -3.2138767356491655
+          ],
+          &quot;type&quot;: &quot;Point&quot;
+        }
+      }
+    ]
+  }
+
+
+var map = L.map(&apos;myMap&apos;).setView([-1.295287148, 36.81984753], 7);
+
+L.tileLayer(&apos;https://tile.openstreetmap.org/{z}/{x}/{y}.png&apos;, {
+    maxZoom: 19,
+    attribution: &apos;&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;&apos;
+}).addTo(map);
+</code></pre><p>Refresh your <code>map.html</code>. It&apos;s a map of Kenya alright, but none of our <code>.geojson</code> features appear yet. We are about to change that. Leaflet offers the <code>L.geoJSON</code> class to add GeoJSON data to a map. The class name speaks for itself and therefore let&apos;s use it to add our GeoJSON features. Add the following code below the other Leaflet map class layers.</p>
+<pre><code>L.geoJSON(cities).addTo(map);
+</code></pre><p>Refresh your <code>map.html</code>. The GeoJSON features should now appear at their exact locations.</p>
+<p><img src="images/geojson-leaflet.jpg" alt=""></p>
+<p>How about if we made the markers more interactive? Say, like they display popups as we did in [Chapter 3][A marker with a popup]? We would like the city names to appear upon a user&apos;s click on the markers. Easy. Just create a function that does so as in the logic provided <a href="https://leafletjs.com/reference.html#geojson" target="_blank">here</a>. We customized it to our case to make sure it references to the <code>City</code> key which is part of the dictionary attached to the <code>properties</code> key. </p>
+<pre><code>L.geoJSON(cities).bindPopup(function (layer) {
+    return layer.feature.properties.City;
+}).addTo(map);
+</code></pre><p><img src="images/geojson-names.jpg" alt=""></p>
+<p>There is one issue with this method. If we have a very long GeoJSON data structure, it will clatter our JavaScript file. We only worked with seven cities, but it is very common to work with data holding hundreds and even thousands of dictionaries. That would make your JavaScript file stretch to <em>ad infitum</em>.</p>
+<p>This brings us to the other two methods, that of using the <strong>Ajax</strong> plugin and using the <strong>Fetch</strong> Application Programming Interface (API). Don&apos;t let the words scare you. Take a break, grab a glass of water and come back. </p>
+<h3 id="using-the-ajax-plugin">Using the Ajax Plugin</h3>
+<p>As the term &apos;plugin&apos; suggests, this is an extension that offers additional functions to the core Leaflet plugin. The Ajax plugin is available from this <a href="https://github.com/calvinmetcalf/leaflet-ajax/archive/refs/heads/gh-pages.zip" target="_blank">link</a>. Download it to your directory and preferably within the same directory as your <code>map.html</code> and <code>geojson.js</code>. Alright. Right under the <code>src</code> for <code>leaflet.js</code> in your <code>map.html</code>, add the following <code>&lt;script&gt;</code> tag. </p>
+<pre><code>    &lt;head&gt;
+        -- snip --
+        &lt;script src=&quot;leaflet-ajax-gh-pages\dist\leaflet.ajax.js&quot;&gt;&lt;/script&gt;
+
+    &lt;/head&gt;
+    -- snip --
+</code></pre><p>This file will allow you to add <code>.geojson</code> files to your Leaflet map. However, there is a catch. Both the Ajax and Fetch APIs only work with GeoJson file formats saved on a web server. Based on experience, they will not work with local GeoJson files. As a work around, we saved our GeoJSON file to Github. For convenience, here is the <a href="https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson" target="_blank">link</a> again to the raw file we had initially created from geojson.io.</p>
+<p>We shall call our GeoJSON file from Github using Ajax as shown in the code below. Please remember to comment out your <code>var cities</code> and <code>L.geoJSON</code> using <code>\\</code> because they are irrelevant in this particular case. </p>
+<pre><code>var geojsonLayer = new L.geoJson.ajax(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;).addTo(map);
+</code></pre><p>Your map should now show the markers of our cities. If you are hawk eyed, you may have noticed that the syntax for Ajax is different from that of the earlier <code>L.geoJSON</code> from Leaflet. Starting with the latter, we have instead used <code>L.geoJson</code> and unlike in the Ajax creator&apos;s website where they used <code>var geojsonLayer = new L.GeoJSON.AJAX(&lt;your-geojson-file&gt;)</code> we used the following syntax: <code>L.geoJson.ajax()</code> (ajax and geoJson beginning with small case). Actually, that&apos;s what worked after quite a lengthy web search.</p>
+<p>Just like using <code>L.geoJSON</code>, we can also add popups after calling the <code>.ajax</code> method. </p>
+<pre><code>var geojsonLayer = new L.geoJson.ajax(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+    .bindPopup(function (layer) {
+        return layer.feature.properties.City;
+    }).addTo(map);
+</code></pre><p>Doing so should make the city names appear on clicking the markers on your Leaflet map.</p>
+<h3 id="using-fetch-api">Using Fetch API</h3>
+<p>Fetch API is  a modern interface that allows you to make HTTP requests to servers from web browsers. In other words, it searches for a resource over the web, retrieves it, and brings it to you. Think of it as a dog in which you throw a saucer and tell your faithful hound: &quot;<em>Sabretooth</em>, fetch!&quot;. The dog runs after the saucer, grips it with its canines mid-air and quickly brings it back to you. Same case with Fetch API!</p>
+<p>I had mentioned I will show you how to retrieve our Github stored GeoJSON data and I shall stick to the script! I shall also attempt to explain how this <em>mysterious</em> <code>fetch</code> works. </p>
+<p>First things first. The <code>fetch</code> function shall be called and passed to our Github url containing our GeoJSON text. Since <code>fetch</code> is an API, it retrieves data from Github.io --the server in this case--and brings it to our laptop the --the client. Enough IT. Let&apos;s write it down.</p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+</code></pre><p>Okay, next step. Once the server beams back the data to us, what do we do with it? According to <a href="https://www.digitalocean.com/community/tutorials/js-fetch-api" target="_blank">Digital Ocean</a>, the response is not <em>actually</em> the data in the original format but rather <em>a series of methods that can be used depending on what you want to do with the information</em>. This sounds downright confusing. Nevertheless, it is <em>at least</em> crystal clear that the end goal is to have our fetched data in JSON format. Converting an object to JSON is done using the <code>json()</code> method.  We parse <code>.json()</code> to a <code>then</code> method which is an asynchronous function^[Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished. Once that task has finished, your program is presented with the result. See <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing" target="_blank">Mozilla</a>]. After the <code>fetch</code> function is successful, the object is stored in the <code>response</code> argument, which is in brackets, and then the function returns the result as a <code>json</code> object. </p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+    .then(function(response) {
+        return response.json()
+    })
+</code></pre><p>After converting our response to JSON, it still needs to be processed further. Processed to what? To a GeoJSON file and subsequently add it to our Leaflet Map.</p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+    .then(function(response) {
+        return response.json()
+    })
+    .then(function(data) {
+        L.geoJson(data).addTo(map);
+    })
+</code></pre><p>We shall also add one more function --the <code>catch()</code> method. <code>catch()</code> is a method that returns an action if our response to the server has been rejected. Let&apos;s demonstrate all this.</p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+    .then(function(response) {
+        return response.json()
+    })
+    .then(function(data) {
+        L.geoJson(data).addTo(map);
+    })
+    .catch(function(error) {
+        console.log(`This is the error: ${error}`)
+    })
+</code></pre><p>To see the <code>catch()</code> in action, omit the last letter in our url so that it reads <code>cities-geojson.geojso</code>. Yeah, you read it right. Just omit the letter &apos;n&apos; for now and reload your <code>map.html</code>. Right click the webmap page and click on <strong>Inspect</strong> in the small interface that appears. Head over to the console tab and see the error response. It should read like in the below image.</p>
+<p><img src="images/catch-error.jpg" alt=""></p>
+<p>Restore the omitted letter &apos;n&apos; and reload your <code>map.html</code>. Your Leaflet map should have the city markers overlain just like in the case of using Ajax plugin or hardcoding the Geojson data into <code>var cities</code>. To stretch your Javascript skills further, we can shorten our code further by retaining the arguments <code>response</code>, <code>data</code> and <code>error</code> and using the arrow function <code>=&gt;</code> to pass on the return statements, like so:</p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+    .then((response) =&gt;{
+        return response.json()
+    })
+    .then((data) =&gt; {
+        L.geoJson(data).addTo(map);
+    })
+    .catch((error) =&gt; {
+        console.log(`This is the error: ${error}`)
+    })
+</code></pre><p>It looks cryptic but don&apos;t cry! We have only ommitted the <code>function()</code> keyword and instead added <code>=&gt;</code> between <code>function()</code> and the curly brackets <code>{&lt;code-to-run&gt;}</code> which is the function body aka where the magic happens. Just like when using  Ajax, we can also add other functionalities to <code>L.geoJSON</code> within the <code>fetch</code> plugin. In here, and thanks to the use of template literals <code>(``)</code>, we can even add statements and refer to our GeoJson keys (and in some cases, even variables) using <code>${}</code>. Whatever is within the <code>${}</code> is executed and passed out as a string to the template literals.</p>
+<pre><code>fetch(&quot;https://raw.githubusercontent.com/sammigachuhi/geojson_files/main/cities-geojson.geojson&quot;)
+    .then((response) =&gt;{
+        return response.json()
+    })
+    .then((data) =&gt; {
+        L.geoJson(data).bindPopup((layer) =&gt; {
+            return `City: ${layer.feature.properties.City},&lt;br&gt;
+            Population: ${layer.feature.properties.Population}`}).addTo(map);
+    })
+    .catch((error) =&gt; {
+        console.log(`This is the error: ${error}`)
+    })
+</code></pre><p>In the <code>return</code> statement above, we added the HTML tag <code>&lt;br&gt;</code> to separate the <code>City</code> and <code>Population</code> keys from our GeoJSON. Doing so will return neat marker texts where the city name and population figures are in two separate lines.</p>
+<p>Enough Javascript for a day!</p>
+<p><img src="images/city-population.jpg" alt=""></p>
+<p>Here are the <a href="https://github.com/sammigachuhi/my-leaflet-project/tree/main/my-leaflet-code/chapter-5-geojson-leaflet" target="_blank">full files</a> used in this chapter.</p>
+<h2 id="summary">Summary</h2>
+<p>Who thought that simple GeoJSON files would be so complicated to load and see? Lets recap what we&apos;ve learnt.</p>
+<ul>
+<li><p>GeoJSON files are an open standard geospatial data interchange format that represents simple geographic features and their nonspatial attributes.</p>
+</li>
+<li><p>GeoJSON is based on the JavaScript Object Notation (JSON) file format known for its lightweight nature.</p>
+</li>
+<li><p>GeoJSON files are the <em>lingua franca</em> of working with spatial information on the web.</p>
+</li>
+<li><p>The <a href="https://geojson.io/#map=2/0/20" target="_blank">geojson.io</a> website allows a user to create a GeoJSON file interactively and intuitively.</p>
+</li>
+<li><p>There are three main ways of loading a GeoJSON file in Leaflet. One is by hardcoding the dictionary of spatial attributes in a JavaScript file. This was the first method that we explored.</p>
+</li>
+<li><p>The other method is by using the Ajax plugin. We call Ajax into Leaflet by inserting into the <code>&lt;head&gt;</code> element the path to the extracted Ajax files.</p>
+</li>
+<li><p>The third and last method is through use of the <code>fetch</code> API. The <code>fetch</code> API searches for a resource over the web, retrieves it, and brings it to your computer.</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="04-Embedding_Leaflet_Map_to_an_External_Website.html" class="navigation navigation-prev " aria-label="Previous page: Chapter 4">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="06-Custom_markers.html" class="navigation navigation-next " aria-label="Next page: Chapter 6">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 5","level":"1.6","depth":1,"next":{"title":"Chapter 6","level":"1.7","depth":1,"path":"06-Custom_markers.md","ref":"06-Custom_markers.md","articles":[]},"previous":{"title":"Chapter 4","level":"1.5","depth":1,"path":"04-Embedding_Leaflet_Map_to_an_External_Website.md","ref":"04-Embedding_Leaflet_Map_to_an_External_Website.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"}},"file":{"path":"05-Using_geojson_files_in_Leaflet.md","mtime":"2026-01-30T19:27:05.442Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-01-30T19:51:43.548Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -22,8 +22,8 @@ Samuel Gachuhi Ngugi is a graduate of the University of Nairobi holding a Bachel
 
 This book, *Leaflet in Practice: Create webmaps using the JavaScript Leaflet library* has been created under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
 
-```{r}
-knitr::include_graphics(rep('D:/gachuhi/my-leaflet/images/copyright_image.png'))
+
+![](./images/copyright_image.png'))
 
 ```
 

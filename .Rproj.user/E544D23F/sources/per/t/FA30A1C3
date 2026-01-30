@@ -1,9 +1,9 @@
 {
     "id": "FA30A1C3",
-    "path": "D:/gachuhi/my-leaflet/book-leaflet/06-Custom_markers.Rmd",
+    "path": "D:/gachuhi/R_Projects2/book-leaflet/06-Custom_markers.Rmd",
     "project_path": "06-Custom_markers.Rmd",
     "type": "r_markdown",
-    "hash": "3364860211",
+    "hash": "897424727",
     "contents": "",
     "dirty": false,
     "created": 1683388563943.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "441,148",
-        "scrollLine": "439"
+        "cursorPosition": "444,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1689627174,
+    "lastKnownWriteTime": 1687709941,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1689627174500,
+    "last_content_update": 1687807995148,
     "read_only": false,
     "read_only_alternatives": []
 }

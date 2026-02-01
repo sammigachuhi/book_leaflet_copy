@@ -1,3 +1,5 @@
+# Leaflet in Practice: Create webmaps using the JavaScript Leaflet library
+
 # Preface {-}
 
 This book was written to assist the budding GIS specialist, geographer or cartographer who has an interest in quickly learning how to create webmaps with minimal knowledge of JavaScript. The aim of this book is to bring the learner up to speed on how to create almost any kind of webmap using Leaflet. Written from the point of a self-taught programmer, this is more of a guide book on how to navigate the Leaflet JavaScript syntax at intermediate level. Nevertheless, it is the wish of this writer that the book appetites you to go deeper in using programming for not only Geographical Information Systems (GIS) purposes, but for any other purpose that fascinates your mind. 
